@@ -83,7 +83,7 @@ stages {
                 steps {
                     emailext     subject: """Deployment Approval for $deployBranch branch and $deployService service""",
                                	        body: '''<a href="${JENKINS_URL}/job/${JOB_NAME}/${BUILD_NUMBER}/input">click to approve</a>''',
-                                to: 'muralialakuntla3@gmail.com',
+                                to: 'mteja4433@gmail.com',
                                 mimeType: 'text/html',
                                 attachLog: true
                     script {
